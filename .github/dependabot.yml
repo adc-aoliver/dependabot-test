@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # NuGet dependency updates
+  - package-ecosystem: "nuget"
+    directory: "/" # Location of package files (root)
+    schedule:
+      interval: "weekly"
