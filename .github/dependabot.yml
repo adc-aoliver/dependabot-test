@@ -1,0 +1,14 @@
+version: 2
+updates:
+  # NuGet dependency updates
+  - package-ecosystem: "nuget"
+    directory: "/" # Location of package files (root)
+    schedule:
+      interval: "weekly"
+    groups:
+      # This is the name of your group, it will be used in PR titles and branch names
+      dependency-updates:
+        # A pattern can be...
+        patterns:
+          - "grpc*" 
+          - "google*" 
