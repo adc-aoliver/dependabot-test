@@ -5,3 +5,4 @@ updates:
     directory: "/" # Location of package files (root)
     schedule:
       interval: "weekly"
+      
